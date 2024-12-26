@@ -1,4 +1,4 @@
-# End-to-End-Chest-cancer-classification-with-MLFlow-and-DVC
+# End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
 
 
 ## Workflows
@@ -9,6 +9,40 @@
 4. Update the entity
 5. Update the configuration manager in src config
 6. Update the components
-7. Update the pipeline
+7. Update the pipeline 
 8. Update the main.py
 9. Update the dvc.yaml
+
+
+
+
+
+## MLflow
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/ajairosen/chest-Disease-Classification-MLflow-DVC.mlflow \
+MLFLOW_TRACKING_USERNAME=ajairosen \
+MLFLOW_TRACKING_PASSWORD=your_key \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/ajairosen/chest-Disease-Classification-MLflow-DVC.mlflow
+
+export MLFLOW_TRACKING_USERNAME=ajairosen 
+
+export MLFLOW_TRACKING_PASSWORD=your_key
+
+```
+
+
