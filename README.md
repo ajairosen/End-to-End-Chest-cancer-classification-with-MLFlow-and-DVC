@@ -35,13 +35,13 @@ python script.py
 
 Run this to export as env variables:
 
-```bash
+```cmd
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/ajairosen/chest-Disease-Classification-MLflow-DVC.mlflow
+set MLFLOW_TRACKING_URI=https://dagshub.com/ajairosen/End-to-End-Chest-cancer-classification-with-MLFlow-and-DVC
 
-export MLFLOW_TRACKING_USERNAME=ajairosen 
+set MLFLOW_TRACKING_USERNAME=ajairosen 
 
-export MLFLOW_TRACKING_PASSWORD=your_key
+set MLFLOW_TRACKING_PASSWORD=a18bb272714e4ff043be99a78f8cd54f9bee5e3a
 
 ```
 
