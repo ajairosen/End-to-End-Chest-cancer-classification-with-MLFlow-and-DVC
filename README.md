@@ -37,7 +37,7 @@ Run this to export as env variables:
 
 ```cmd
 
-set MLFLOW_TRACKING_URI=https://dagshub.com/ajairosen/End-to-End-Chest-cancer-classification-with-MLFlow-and-DVC
+set MLFLOW_TRACKING_URI=https://dagshub.com/ajairosen/End-to-End-Chest-cancer-classification-with-MLFlow-and-DVC.mlflow
 
 set MLFLOW_TRACKING_USERNAME=ajairosen 
 
