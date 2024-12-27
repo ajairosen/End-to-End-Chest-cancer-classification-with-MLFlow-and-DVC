@@ -35,7 +35,7 @@ python script.py
 
 Run this to export as env variables:
 
-```cmd
+```bash
 
 set MLFLOW_TRACKING_URI=https://dagshub.com/ajairosen/End-to-End-Chest-cancer-classification-with-MLFlow-and-DVC.mlflow
 
